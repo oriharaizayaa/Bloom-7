@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1C23" />
+      <stop offset="100%" stop-color="#0B0C0E" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB800" />
+      <stop offset="100%" stop-color="#FF5500" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)" stroke="#FF7A1A" stroke-width="2" />
+  <text x="14" y="44" font-family="'Outfit', sans-serif" font-weight="900" font-size="34" fill="#FFFFFF">B</text>
+  <!-- Leaf accent -->
+  <path d="M36 22 C42 12, 54 13, 56 20 C50 26, 42 26, 36 22 Z" fill="url(#gold)" />
+  <circle cx="48" cy="38" r="5" fill="url(#gold)" />
+</svg>

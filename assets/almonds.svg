@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="almondGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C57A44" />
+      <stop offset="50%" stop-color="#A25725" />
+      <stop offset="100%" stop-color="#69300D" />
+    </linearGradient>
+    <radialGradient id="almondGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF7A1A" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#FF7A1A" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="45" fill="url(#almondGlow)" />
+  <!-- Whole Almond -->
+  <g transform="translate(15, 15)">
+    <path d="M 35,5 C 58,25 60,55 35,65 C 10,55 12,25 35,5 Z" fill="url(#almondGrad)" stroke="#FFA726" stroke-width="1.5" />
+    <path d="M 35,15 Q 38,40 32,58" stroke="#E69138" stroke-width="1.2" fill="none" opacity="0.6" />
+    <!-- Second sliced almond -->
+    <g transform="translate(25, 20) rotate(35 20 20)">
+      <path d="M 20,5 C 34,18 35,40 20,48 C 5,40 6,18 20,5 Z" fill="#FFE0B2" stroke="#8D4925" stroke-width="2" />
+      <path d="M 20,10 C 30,20 30,36 20,42 C 10,36 10,20 20,10 Z" fill="#FFF3E0" />
+    </g>
+  </g>
+</svg>

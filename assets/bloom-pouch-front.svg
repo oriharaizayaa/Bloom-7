@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 780" width="500" height="780">
+  <defs>
+    <linearGradient id="pouchBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#141518" />
+      <stop offset="12%" stop-color="#22252B" />
+      <stop offset="50%" stop-color="#181A1F" />
+      <stop offset="88%" stop-color="#242730" />
+      <stop offset="100%" stop-color="#111215" />
+    </linearGradient>
+    <linearGradient id="goldSwoosh" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB800" stop-opacity="0.9" />
+      <stop offset="35%" stop-color="#FF7A1A" stop-opacity="0.95" />
+      <stop offset="70%" stop-color="#E65100" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#FFA726" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="goldLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="50%" stop-color="#FFB800" />
+      <stop offset="100%" stop-color="#FF7A1A" />
+    </linearGradient>
+    <linearGradient id="notchGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0A0B0D" />
+      <stop offset="100%" stop-color="#252830" />
+    </linearGradient>
+    <radialGradient id="pouchGlow" cx="50%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#FF7A1A" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#FF7A1A" stop-opacity="0" />
+    </radialGradient>
+    <filter id="pouchShadow" x="-20%" y="-10%" width="140%" height="130%">
+      <feDropShadow dx="0" dy="25" stdDeviation="30" flood-color="#000000" flood-opacity="0.8" />
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#FF7A1A" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <g filter="url(#pouchShadow)">
+    <!-- Top Zipper Seal -->
+    <path d="M 60,60 Q 250,55 440,60 L 445,95 Q 250,90 55,95 Z" fill="url(#notchGrad)" />
+    <!-- Zipper Tear Notches -->
+    <path d="M 52,78 L 65,74 L 65,82 Z" fill="#0A0B0D" />
+    <path d="M 448,78 L 435,74 L 435,82 Z" fill="#0A0B0D" />
+    <!-- Zipper Texture Line -->
+    <line x1="70" y1="78" x2="430" y2="78" stroke="#333742" stroke-width="2" stroke-dasharray="4,4" />
+
+    <!-- Main Pouch Contour (Stand-up Pouch Shape) -->
+    <path d="M 55,95 
+             C 50,220 40,480 50,680 
+             C 55,710 130,735 250,735 
+             C 370,735 445,710 450,680 
+             C 460,480 450,220 445,95 
+             Z" 
+          fill="url(#pouchBody)" stroke="#2D313A" stroke-width="1.5" />
+
+    <!-- Pouch Bottom Gusset Crease -->
+    <path d="M 70,670 Q 250,715 430,670" fill="none" stroke="#0D0E11" stroke-width="3" opacity="0.6" />
+    <path d="M 70,670 Q 250,725 430,670 Q 250,740 70,670 Z" fill="#131418" opacity="0.85" />
+
+    <!-- Golden/Orange Waves / Swoosh (Bottom & Middle) -->
+    <path d="M 48,540 
+             C 120,580 200,480 340,510 
+             C 410,525 440,490 452,470 
+             L 450,680 
+             C 445,710 370,735 250,735 
+             C 130,735 55,710 50,680 
+             Z" 
+          fill="url(#goldSwoosh)" />
+
+    <!-- Secondary Fluid Wave Highlight -->
+    <path d="M 50,590 
+             C 140,520 280,620 450,560 
+             L 450,680 
+             C 445,710 370,735 250,735 
+             C 130,735 55,710 50,680 
+             Z" 
+          fill="url(#goldLight)" opacity="0.85" />
+
+    <!-- Botanical Wheat / Oats Branch Illustration on left side -->
+    <g transform="translate(65, 360) scale(0.65)" opacity="0.9">
+      <path d="M 10,120 Q 50,60 90,0" stroke="#FFD54F" stroke-width="3" fill="none" />
+      <path d="M 30,85 C 20,70 15,55 35,50 C 45,65 40,80 30,85 Z" fill="#FFE082" />
+      <path d="M 45,65 C 55,50 65,40 75,55 C 65,70 55,75 45,65 Z" fill="#FFD54F" />
+      <path d="M 60,45 C 50,30 50,15 70,12 C 80,25 72,40 60,45 Z" fill="#FFE082" />
+      <path d="M 75,25 C 85,10 95,5 105,20 C 95,35 85,35 75,25 Z" fill="#FFD54F" />
+      <circle cx="20" cy="115" r="14" fill="#8D4925" />
+      <circle cx="45" cy="130" r="11" fill="#D7CCC8" />
+    </g>
+
+    <!-- Center Glow on Logo -->
+    <circle cx="250" cy="270" r="140" fill="url(#pouchGlow)" />
+
+    <!-- BRAND LOGO ON POUCH -->
+    <g transform="translate(100, 180)">
+      <text x="12" y="65" font-family="'Outfit', 'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="58" letter-spacing="4" fill="#FFFFFF">
+        BL<tspan fill="url(#goldLight)">OO</tspan>M
+      </text>
+      <!-- Leaf on Logo -->
+      <path d="M175 25 C185 10, 202 12, 206 20 C198 28, 186 28, 175 25 Z" fill="url(#goldLight)" />
+      <path d="M203 22 C212 15, 225 19, 223 29 C213 30, 206 26, 203 22 Z" fill="url(#goldLight)" />
+    </g>
+
+    <!-- Subtitles & Arabic Details -->
+    <text x="250" y="280" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="14" letter-spacing="3.5" fill="#FFB800">
+      NATURAL WEIGHT GAINER
+    </text>
+    <text x="250" y="305" text-anchor="middle" font-family="'Noto Sans Arabic', 'Cairo', sans-serif" font-weight="700" font-size="16" fill="#F3F4F6">
+      مكمل غذائي طبيعي لزيادة الوزن
+    </text>
+
+    <!-- Size & Servings Badges -->
+    <text x="250" y="355" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="900" font-size="24" fill="#FFFFFF">
+      250 g
+    </text>
+    <text x="250" y="375" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" letter-spacing="2" fill="#E5E7EB">
+      30 DAILY SERVINGS
+    </text>
+    <text x="250" y="393" text-anchor="middle" font-family="'Noto Sans Arabic', 'Cairo', sans-serif" font-weight="600" font-size="13" fill="#D1D5DB">
+      30 حصة يومية
+    </text>
+
+    <!-- Key Instruction Capsule Badge -->
+    <g transform="translate(130, 420)">
+      <rect x="0" y="0" width="240" height="70" rx="14" fill="#121316" stroke="#FF7A1A" stroke-width="2" opacity="0.9" />
+      <text x="120" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="13" letter-spacing="1" fill="#FFB800">
+        1 TEASPOON DAILY
+      </text>
+      <text x="120" y="40" text-anchor="middle" font-family="'Noto Sans Arabic', sans-serif" font-weight="600" font-size="12" fill="#FFFFFF">
+        ملعقة صغيرة يومياً
+      </text>
+      <line x1="30" y1="46" x2="210" y2="46" stroke="#2D313A" stroke-width="1" />
+      <text x="120" y="58" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#E5E7EB">
+        WITH MILK • BEFORE BED
+      </text>
+    </g>
+
+    <!-- Value Proposition Banner (Bottom) -->
+    <text x="250" y="525" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="800" font-size="16" fill="#111215">
+      Natural Nutrition for Healthy Growth
+    </text>
+    <text x="250" y="548" text-anchor="middle" font-family="'Noto Sans Arabic', sans-serif" font-weight="700" font-size="14" fill="#1A1C23">
+      تغذية طبيعية لدعم زيادة الوزن والنمو الصحي
+    </text>
+
+    <!-- Bottom Feature Triad Icons & Arabic Badges -->
+    <g transform="translate(100, 610)">
+      <!-- Leaf -->
+      <path d="M 30,20 C 38,5 52,8 55,16 C 48,24 38,24 30,20 Z" fill="#111215" />
+      <!-- Jar 30 -->
+      <rect x="135" y="5" width="28" height="30" rx="5" fill="none" stroke="#111215" stroke-width="2.5" />
+      <text x="149" y="26" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="800" font-size="14" fill="#111215">30</text>
+      <!-- Spoon/Glass -->
+      <path d="M 245,30 L 255,10 L 265,10 L 260,30 Z" fill="#111215" />
+      <line x1="240" y1="32" x2="270" y2="32" stroke="#111215" stroke-width="2.5" />
+    </g>
+    <text x="250" y="665" text-anchor="middle" font-family="'Noto Sans Arabic', sans-serif" font-weight="700" font-size="13" fill="#111215">
+      مكونات طبيعية | تغذية يومية | سهل التحضیر
+    </text>
+  </g>
+</svg>

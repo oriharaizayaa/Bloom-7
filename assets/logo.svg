@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60" fill="none">
+  <defs>
+    <linearGradient id="goldOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9500" />
+      <stop offset="50%" stop-color="#FF6B00" />
+      <stop offset="100%" stop-color="#E05300" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34C759" />
+      <stop offset="100%" stop-color="#30D158" />
+    </linearGradient>
+  </defs>
+  <!-- Main Brand Name (Apple Light Theme: Dark Slate Text #1D1D1F) -->
+  <text x="5" y="44" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Outfit', sans-serif" font-weight="900" font-size="42" letter-spacing="3" fill="#1D1D1F">
+    BL<tspan fill="url(#goldOrange)">OO</tspan>M
+  </text>
+  <!-- Botanical Leaf Accent over the O's in Apple Green -->
+  <path d="M125 15 C130 5, 142 6, 145 12 C140 18, 132 18, 125 15 Z" fill="url(#leafGrad)" />
+  <path d="M143 13 C149 8, 158 11, 157 18 C150 19, 145 16, 143 13 Z" fill="url(#goldOrange)" />
+  <!-- Subtitle -->
+  <text x="8" y="55" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-weight="700" font-size="9" letter-spacing="3" fill="#0071E3">
+    NATURAL WEIGHT GAINER
+  </text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="bananaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF176" />
+      <stop offset="50%" stop-color="#FFD54F" />
+      <stop offset="100%" stop-color="#FFA000" />
+    </linearGradient>
+    <radialGradient id="bananaGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD54F" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#FFD54F" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="45" fill="url(#bananaGlow)" />
+  <!-- Curved Banana -->
+  <path d="M 22,30 C 40,32 72,48 74,78 C 65,72 40,60 22,30 Z" fill="url(#bananaGrad)" stroke="#FFB800" stroke-width="1.5" />
+  <path d="M 22,30 L 18,24 L 23,23 Z" fill="#5D4037" />
+  <circle cx="74" cy="78" r="2.5" fill="#4E342E" />
+  <!-- Second banana in bunch -->
+  <path d="M 32,25 C 50,30 80,42 82,68 C 76,62 52,52 32,25 Z" fill="url(#bananaGrad)" opacity="0.85" stroke="#FFA000" stroke-width="1.2" />
+</svg>

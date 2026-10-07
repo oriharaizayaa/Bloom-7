@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <defs>
+    <linearGradient id="moonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0071E3" />
+      <stop offset="100%" stop-color="#5856D6" />
+    </linearGradient>
+  </defs>
+  <circle cx="40" cy="40" r="38" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="2" />
+  <g transform="translate(22, 18)">
+    <path d="M 24,6 C 14,8 8,18 10,28 C 12,38 22,42 30,38 C 22,36 18,26 20,18 C 21,12 24,6 24,6 Z" fill="url(#moonGrad)" />
+    <polygon points="12,10 14,14 18,14 15,17 16,21 12,18 8,21 9,17 6,14 10,14" fill="#FF9500" transform="scale(0.6)" />
+    <polygon points="46,20 48,24 52,24 49,27 50,31 46,28 42,31 43,27 40,24 44,24" fill="#FFCC00" transform="scale(0.5)" />
+  </g>
+</svg>

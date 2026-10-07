@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <defs>
+    <linearGradient id="stepGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9500" />
+      <stop offset="100%" stop-color="#FF6B00" />
+    </linearGradient>
+  </defs>
+  <circle cx="40" cy="40" r="38" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="2" />
+  <g transform="translate(18, 16)">
+    <path d="M 38,10 L 18,30 C 14,34 8,32 5,28 C 2,24 4,18 8,14 L 28,-4" stroke="url(#stepGold)" stroke-width="3.5" fill="none" stroke-linecap="round" />
+    <ellipse cx="8" cy="20" rx="9" ry="6" fill="#FF9500" />
+    <path d="M 0,19 Q 8,12 16,19 Z" fill="#FFCC00" />
+  </g>
+</svg>

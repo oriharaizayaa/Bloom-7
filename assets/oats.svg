@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="oatGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="100%" stop-color="#FFB300" />
+    </linearGradient>
+    <radialGradient id="oatGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFB800" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#FFB800" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="45" fill="url(#oatGlow)" />
+  <!-- Grain stalks -->
+  <g transform="translate(15, 10)">
+    <path d="M 35,75 Q 35,40 35,10" stroke="#FFCA28" stroke-width="2.5" fill="none" />
+    <!-- Oats grains -->
+    <path d="M 35,20 C 22,12 18,25 35,28 C 52,25 48,12 35,20 Z" fill="url(#oatGrad)" />
+    <path d="M 35,36 C 20,28 16,42 35,44 C 54,42 50,28 35,36 Z" fill="url(#oatGrad)" />
+    <path d="M 35,52 C 22,46 18,58 35,60 C 52,58 48,46 35,52 Z" fill="url(#oatGrad)" />
+    <!-- Awn bristles -->
+    <line x1="20" y1="15" x2="8" y2="8" stroke="#FFE082" stroke-width="1.5" />
+    <line x1="50" y1="15" x2="62" y2="8" stroke="#FFE082" stroke-width="1.5" />
+    <line x1="18" y1="32" x2="6" y2="25" stroke="#FFE082" stroke-width="1.5" />
+    <line x1="52" y1="32" x2="64" y2="25" stroke="#FFE082" stroke-width="1.5" />
+  </g>
+</svg>
